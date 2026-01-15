@@ -3,7 +3,7 @@ package testing_data
 import (
 	"fmt"
 	"testing"
-	"github.com/parakeet-nest/parakeet/data"
+	"github.com/mitjafelicijan/parakeet/data"
 )
 
 func TestQAToText(t *testing.T) {

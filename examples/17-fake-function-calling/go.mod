@@ -2,7 +2,7 @@ module 17-fake-function-calling
 
 go 1.24.0
 
-require github.com/parakeet-nest/parakeet v0.2.9
+require github.com/mitjafelicijan/parakeet v0.2.9
 
 require (
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
@@ -16,4 +16,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/parakeet-nest/parakeet => ../..
+replace github.com/mitjafelicijan/parakeet => ../..

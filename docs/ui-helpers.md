@@ -41,8 +41,8 @@ ui.Println(colors.Magenta, "👋 hello 🤖")
 
 Imports:
 ```go
-"github.com/parakeet-nest/parakeet/ui"
-"github.com/parakeet-nest/parakeet/ui/colors"
+"github.com/mitjafelicijan/parakeet/ui"
+"github.com/mitjafelicijan/parakeet/ui/colors"
 ```
 
 !!! info
@@ -53,6 +53,6 @@ Imports:
 !!! note
 	👀 you will find complete examples in:
 
-    - [examples/58-michael-burnham](https://github.com/parakeet-nest/parakeet/tree/main/examples/58-michael-burnham)
-    - [examples/59-jean-luc-picard-contextual-retrieval](https://github.com/parakeet-nest/parakeet/tree/main/examples/59-jean-luc-picard-contextual-retrieval)
+    - [examples/58-michael-burnham](https://github.com/mitjafelicijan/parakeet/tree/main/examples/58-michael-burnham)
+    - [examples/59-jean-luc-picard-contextual-retrieval](https://github.com/mitjafelicijan/parakeet/tree/main/examples/59-jean-luc-picard-contextual-retrieval)
 

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/parakeet-nest/parakeet/similarity"
+	"github.com/mitjafelicijan/parakeet/similarity"
 )
 
 

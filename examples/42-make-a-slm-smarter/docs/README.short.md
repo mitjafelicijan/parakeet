@@ -4,7 +4,7 @@ This blog post is the short version of the tutorial [How to Make an SLM Smarter]
 
 In this tutorial, we will see how to make an SLM smarter by using contextual data.
 
-> I will use my project [Parakeet](https://github.com/parakeet-nest/parakeet) to illustrate this tutorial. But you can easily adapt the concepts with other frameworks like LangChain.
+> I will use my project [Parakeet](https://github.com/mitjafelicijan/parakeet) to illustrate this tutorial. But you can easily adapt the concepts with other frameworks like LangChain.
 
 ## SLM?
 
@@ -53,7 +53,7 @@ I would like to ask my fern expert about other varieties of ferns. To do this, I
 
 ### Similarity Search
 
-To perform the similarity search, I used the `SearchTopNSimilarities` function from [Parakeet](https://github.com/parakeet-nest/parakeet). Here is the signature of this function:
+To perform the similarity search, I used the `SearchTopNSimilarities` function from [Parakeet](https://github.com/mitjafelicijan/parakeet). Here is the signature of this function:
 
 ```golang
 func (mvs *embeddings.MemoryVectorStore) SearchTopNSimilarities(embeddingFromQuestion llm.VectorRecord, limit float64, max int) ([]llm.VectorRecord, error)
@@ -167,7 +167,7 @@ A family of ferns known for their leathery fronds and widespread distribution in
 
 So, now, when I will retrieve the content of the markdown file after a similarity search, I will have the information on the fern variety that is most relevant to the question and the SLM will focus on this information only to answer the question.
 
-📝 You can find the full file here: [ferns.2.split.list.md](https://github.com/parakeet-nest/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.2.split.list.md)
+📝 You can find the full file here: [ferns.2.split.list.md](https://github.com/mitjafelicijan/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.2.split.list.md)
 
 ## Let's code it
 
@@ -211,7 +211,7 @@ This program will do several things:
 - Create a context with the document part(s) that have the highest similarity to the question.
 - Ask the question to the**qwen2:1.5b** model (or**tinydolphin**) with the generated context.
 
-📝 The code to run the examples is here: [03-rag-list](https://github.com/parakeet-nest/parakeet/tree/main/examples/42-make-a-slm-smarter/03-rag-list)
+📝 The code to run the examples is here: [03-rag-list](https://github.com/mitjafelicijan/parakeet/tree/main/examples/42-make-a-slm-smarter/03-rag-list)
 
 ### Questions
 
@@ -236,10 +236,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/content"
-	"github.com/parakeet-nest/parakeet/embeddings"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/content"
+	"github.com/mitjafelicijan/parakeet/embeddings"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func main() {

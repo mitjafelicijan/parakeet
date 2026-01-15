@@ -8,7 +8,7 @@ site_description: >-
   🦜🪺 Parakeet is a GoLang library, made to simplify the development of small generative AI applications with Ollama 🦙.
 # Repository
 repo_name: parakeet-nest/parakeet
-repo_url: https://github.com/parakeet-nest/parakeet
+repo_url: https://github.com/mitjafelicijan/parakeet
 
 # Copyright
 copyright: Copyright &copy; 2024 - 2025 Philippe Charrière

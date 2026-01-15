@@ -7,13 +7,13 @@ import (
 	"strings"
 
 	"github.com/joho/godotenv"
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/content"
-	"github.com/parakeet-nest/parakeet/embeddings"
-	"github.com/parakeet-nest/parakeet/enums/option"
-	"github.com/parakeet-nest/parakeet/enums/provider"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/content"
+	"github.com/mitjafelicijan/parakeet/embeddings"
+	"github.com/mitjafelicijan/parakeet/enums/option"
+	"github.com/mitjafelicijan/parakeet/enums/provider"
 
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/llm"
 
 	"fmt"
 	"log"

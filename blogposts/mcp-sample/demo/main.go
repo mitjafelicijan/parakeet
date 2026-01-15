@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	mcpsse "github.com/parakeet-nest/parakeet/mcp-sse"
+	mcpsse "github.com/mitjafelicijan/parakeet/mcp-sse"
 )
 
 func main() {

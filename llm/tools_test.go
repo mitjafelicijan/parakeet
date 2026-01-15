@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"testing"
-	//"github.com/parakeet-nest/parakeet/tools"
+	//"github.com/mitjafelicijan/parakeet/tools"
 )
 
 func TestTools(t *testing.T) {

@@ -1,9 +1,9 @@
 package embeddings
 
 import (
-	"github.com/parakeet-nest/parakeet/enums/provider"
-	"github.com/parakeet-nest/parakeet/gear"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/enums/provider"
+	"github.com/mitjafelicijan/parakeet/gear"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 type EmbeddingResponse struct {

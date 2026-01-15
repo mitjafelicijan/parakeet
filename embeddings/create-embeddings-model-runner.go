@@ -7,8 +7,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/parakeet-nest/parakeet/embeddings/typesprovider/openai"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/embeddings/typesprovider/openai"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func modelRunnerCreateEmbedding(modelRunnerURL string, query llm.Query4Embedding, id string) (llm.VectorRecord, error) {

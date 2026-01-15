@@ -4,11 +4,11 @@ go 1.24.0
 
 toolchain go1.24.4
 
-replace github.com/parakeet-nest/parakeet => ../..
+replace github.com/mitjafelicijan/parakeet => ../..
 
 require (
 	github.com/joho/godotenv v1.5.1
-	github.com/parakeet-nest/parakeet v0.0.0
+	github.com/mitjafelicijan/parakeet v0.0.0
 )
 
 require (

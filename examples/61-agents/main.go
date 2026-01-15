@@ -3,15 +3,15 @@ package main
 import (
 	"os"
 
-	"github.com/parakeet-nest/parakeet/enums/option"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/enums/option"
+	"github.com/mitjafelicijan/parakeet/llm"
 
 	"fmt"
 	"log"
 
-	"github.com/parakeet-nest/parakeet/flock"
-	"github.com/parakeet-nest/parakeet/ui"
-	"github.com/parakeet-nest/parakeet/ui/colors"
+	"github.com/mitjafelicijan/parakeet/flock"
+	"github.com/mitjafelicijan/parakeet/ui"
+	"github.com/mitjafelicijan/parakeet/ui/colors"
 )
 
 func PrintMessages(messages []llm.Message) {

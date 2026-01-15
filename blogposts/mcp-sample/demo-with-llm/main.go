@@ -6,10 +6,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/enums/option"
-	"github.com/parakeet-nest/parakeet/llm"
-	mcpsse "github.com/parakeet-nest/parakeet/mcp-sse"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/enums/option"
+	"github.com/mitjafelicijan/parakeet/llm"
+	mcpsse "github.com/mitjafelicijan/parakeet/mcp-sse"
 )
 
 func main() {

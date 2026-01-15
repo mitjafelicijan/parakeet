@@ -63,6 +63,6 @@ fmt.Println(answer.Message.Content)
 ```
 
 !!! note
-	👋 Look at this **Docker Compose** sample [examples/82-web-chat-bot-model-runner](https://github.com/parakeet-nest/parakeet/tree/main/examples/82-web-chat-bot-model-runner)
+	👋 Look at this **Docker Compose** sample [examples/82-web-chat-bot-model-runner](https://github.com/mitjafelicijan/parakeet/tree/main/examples/82-web-chat-bot-model-runner)
 
 

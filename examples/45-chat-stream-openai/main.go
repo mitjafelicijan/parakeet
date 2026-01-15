@@ -4,9 +4,9 @@ import (
 	"os"
 
 	"github.com/joho/godotenv"
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/enums/provider"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/enums/provider"
+	"github.com/mitjafelicijan/parakeet/llm"
 
 	"fmt"
 	"log"

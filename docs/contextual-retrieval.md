@@ -57,5 +57,5 @@ Generate a brief context of the above chunk to situate this chunk within the bel
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/59-jean-luc-picard-contextual-retrieval](https://github.com/parakeet-nest/parakeet/tree/main/examples/59-jean-luc-picard-contextual-retrieval)
+    - [examples/59-jean-luc-picard-contextual-retrieval](https://github.com/mitjafelicijan/parakeet/tree/main/examples/59-jean-luc-picard-contextual-retrieval)
 

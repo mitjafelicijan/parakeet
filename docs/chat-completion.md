@@ -9,9 +9,9 @@ The chat completion can be used to generate a conversational response for a give
 package main
 
 import (
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/llm"
-	"github.com/parakeet-nest/parakeet/enums/option"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/enums/option"
 
 
 	"fmt"
@@ -68,8 +68,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func main() {
@@ -125,9 +125,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/history"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/history"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func main() {
@@ -235,9 +235,9 @@ conversation.Initialize("../conversation.db")
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/11-chat-conversational-bbolt](https://github.com/parakeet-nest/parakeet/tree/main/examples/11-chat-conversational-bbolt)
-    - [examples/11-chat-conversational-bbolt/begin](https://github.com/parakeet-nest/parakeet/tree/main/examples/11-chat-conversational-bbolt/begin): start a conversation and save the history
-    - [examples/11-chat-conversational-bbolt/resume](https://github.com/parakeet-nest/parakeet/tree/main/examples/11-chat-conversational-bbolt/resume): load the messages from the history bucket and resue the conversation
+    - [examples/11-chat-conversational-bbolt](https://github.com/mitjafelicijan/parakeet/tree/main/examples/11-chat-conversational-bbolt)
+    - [examples/11-chat-conversational-bbolt/begin](https://github.com/mitjafelicijan/parakeet/tree/main/examples/11-chat-conversational-bbolt/begin): start a conversation and save the history
+    - [examples/11-chat-conversational-bbolt/resume](https://github.com/mitjafelicijan/parakeet/tree/main/examples/11-chat-conversational-bbolt/resume): load the messages from the history bucket and resue the conversation
 
 
 ## Conversational history: remove messages 
@@ -249,7 +249,7 @@ conversation.Initialize("../conversation.db")
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/69-web-chat-bot](https://github.com/parakeet-nest/parakeet/tree/main/examples/69-web-chat-bot)
+    - [examples/69-web-chat-bot](https://github.com/mitjafelicijan/parakeet/tree/main/examples/69-web-chat-bot)
 
 ### Bbolt Memory
 
@@ -266,7 +266,7 @@ conversation.Initialize("../conversation.db")
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/70-web-chat-bot-with-session](https://github.com/parakeet-nest/parakeet/tree/main/examples/70-web-chat-bot-with-session)
+    - [examples/70-web-chat-bot-with-session](https://github.com/mitjafelicijan/parakeet/tree/main/examples/70-web-chat-bot-with-session)
 
 
 ### Bbolt Memory
@@ -277,7 +277,7 @@ conversation.Initialize("../conversation.db")
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/71-web-chat-bot-with-session](https://github.com/parakeet-nest/parakeet/tree/main/examples/71-web-chat-bot-with-session)
+    - [examples/71-web-chat-bot-with-session](https://github.com/mitjafelicijan/parakeet/tree/main/examples/71-web-chat-bot-with-session)
 
 ### In Memory and Bbolt
 
@@ -289,13 +289,13 @@ conversation.Initialize("../conversation.db")
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/69-web-chat-bot](https://github.com/parakeet-nest/parakeet/tree/main/examples/69-web-chat-bot)
-    - [examples/70-web-chat-bot-with-session](https://github.com/parakeet-nest/parakeet/tree/main/examples/70-web-chat-bot-with-session)
-    - [examples/71-web-chat-bot-with-session](https://github.com/parakeet-nest/parakeet/tree/main/examples/71-web-chat-bot-with-session)
-    - [examples/72-gitingest-es](https://github.com/parakeet-nest/parakeet/tree/main/examples/72-gitingest-es)
-    - [examples/73-gitingest-daphnia](https://github.com/parakeet-nest/parakeet/tree/main/examples/73-gitingest-daphnia)
-    - [examples/84-conversational-memory](https://github.com/parakeet-nest/parakeet/tree/main/examples/84-conversational-memory)
-    - [examples/85-conversational-bbolt](https://github.com/parakeet-nest/parakeet/tree/main/examples/85-conversational-bbolt)
+    - [examples/69-web-chat-bot](https://github.com/mitjafelicijan/parakeet/tree/main/examples/69-web-chat-bot)
+    - [examples/70-web-chat-bot-with-session](https://github.com/mitjafelicijan/parakeet/tree/main/examples/70-web-chat-bot-with-session)
+    - [examples/71-web-chat-bot-with-session](https://github.com/mitjafelicijan/parakeet/tree/main/examples/71-web-chat-bot-with-session)
+    - [examples/72-gitingest-es](https://github.com/mitjafelicijan/parakeet/tree/main/examples/72-gitingest-es)
+    - [examples/73-gitingest-daphnia](https://github.com/mitjafelicijan/parakeet/tree/main/examples/73-gitingest-daphnia)
+    - [examples/84-conversational-memory](https://github.com/mitjafelicijan/parakeet/tree/main/examples/84-conversational-memory)
+    - [examples/85-conversational-bbolt](https://github.com/mitjafelicijan/parakeet/tree/main/examples/85-conversational-bbolt)
 
 ## Complex conversation
 

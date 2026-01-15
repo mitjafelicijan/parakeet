@@ -9,9 +9,9 @@ The simple completion can be used to generate a response for a given prompt with
 package main
 
 import (
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/llm"
-	"github.com/parakeet-nest/parakeet/enums/option"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/enums/option"
 
 	"fmt"
 	"log"
@@ -48,8 +48,8 @@ func main() {
 package main
 
 import (
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/llm"
 	"fmt"
 	"log"
 )
@@ -91,8 +91,8 @@ func main() {
 package main
 
 import (
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/llm"
 
 	"fmt"
 	"log"

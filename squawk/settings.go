@@ -1,8 +1,8 @@
 package squawk
 
 import (
-	"github.com/parakeet-nest/parakeet/enums/provider"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/enums/provider"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 // BaseURL sets the base URL for the API endpoint of the chosen provider.

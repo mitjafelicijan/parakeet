@@ -2,7 +2,7 @@
 
 In this tutorial, we will see how to make an SLM smarter by using contextual data.
 
-> I will use my project [Parakeet](https://github.com/parakeet-nest/parakeet) to illustrate this tutorial. But you can easily adapt the concepts with other frameworks like LangChain.
+> I will use my project [Parakeet](https://github.com/mitjafelicijan/parakeet) to illustrate this tutorial. But you can easily adapt the concepts with other frameworks like LangChain.
 
 ## SLM?
 
@@ -99,7 +99,7 @@ Here is an excerpt from this file:
             },
 ```
 
-📝 You can find the full file here: [ferns.json](https://github.com/parakeet-nest/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.json)
+📝 You can find the full file here: [ferns.json](https://github.com/mitjafelicijan/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.json)
 
 ### Formatting the Data
 
@@ -140,7 +140,7 @@ Description of the variety of ferns
 
 > The second file is a bit more structured than the first, thanks to paragraph titles. This will allow me to test if the structure of the data impacts the results obtained.
 
-📝 You can find the full files here: [ferns.1.md](https://github.com/parakeet-nest/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.1.md) and [ferns.2.md](https://github.com/parakeet-nest/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.2.md)
+📝 You can find the full files here: [ferns.1.md](https://github.com/mitjafelicijan/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.1.md) and [ferns.2.md](https://github.com/mitjafelicijan/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.2.md)
 
 ## First Experiments
 
@@ -169,7 +169,7 @@ Please use only the content provided below to answer the question.
 Do not add any external knowledge or assumptions.`
 ```
 
-📝 You can find the complete code here: [01-context](https://github.com/parakeet-nest/parakeet/tree/main/examples/42-make-a-slm-smarter/01-context)
+📝 You can find the complete code here: [01-context](https://github.com/mitjafelicijan/parakeet/tree/main/examples/42-make-a-slm-smarter/01-context)
 
 ### Questions
 
@@ -219,7 +219,7 @@ Therefore, I need to help **qwen:0.5b** and **qwen2:0.5b** "focus" on specific a
 
 For this second series of experiments, I reduced the context size by keeping only the information on a single variety of ferns. I created a `ferns.1.extract.md` and `ferns.2.extract.md` file that contains information on the **Dryopteridaceae** variety.
 
-📝 I use the same code to run the examples: [01-context](https://github.com/parakeet-nest/parakeet/tree/main/examples/42-make-a-slm-smarter/01-context)
+📝 I use the same code to run the examples: [01-context](https://github.com/mitjafelicijan/parakeet/tree/main/examples/42-make-a-slm-smarter/01-context)
 
 **For `ferns.1.extract.md`:**
 
@@ -294,7 +294,7 @@ A large family of ferns with robust and often leathery fronds, commonly found in
 **description:** A robust fern with yellowish fronds and a preference for moist, shaded habitats.
 ```
 
-📝 You can find the full files here: [ferns.1.extract.md](https://github.com/parakeet-nest/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.1.extract.md) and [ferns.2.extract.md](https://github.com/parakeet-nest/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.2.extract.md)
+📝 You can find the full files here: [ferns.1.extract.md](https://github.com/mitjafelicijan/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.1.extract.md) and [ferns.2.extract.md](https://github.com/mitjafelicijan/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.2.extract.md)
 
 I then repeated the same experiments as before (same questions).
 
@@ -328,7 +328,7 @@ Of course, I would like to be able to ask my fern expert about other varieties o
 
 ## Third Series of Experiments: Similarity Search to Provide a More Relevant but Smaller Context
 
-📝 This time the code to run the examples is here: [02-rag](https://github.com/parakeet-nest/parakeet/tree/main/examples/42-make-a-slm-smarter/02-rag)
+📝 This time the code to run the examples is here: [02-rag](https://github.com/mitjafelicijan/parakeet/tree/main/examples/42-make-a-slm-smarter/02-rag)
 
 This program will do several things:
 
@@ -345,15 +345,15 @@ This program will do several things:
 
 ✋ `ferns.2.split.md` is a markdown file that contains the same information as `ferns.2.md` (It is also structured the same way), but I added a **marker** `<!-- SPLIT -->` at the end of each fern variety section to indicate the different parts of the document. This will allow me to split the document into several parts and calculate the embeddings of each part.
 
-📝 You can find the full file here: [ferns.2.split.md](https://github.com/parakeet-nest/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.2.split.md)
+📝 You can find the full file here: [ferns.2.split.md](https://github.com/mitjafelicijan/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.2.split.md)
 
-✋ For this experiment, I used an "in-memory vector store" to store the vectors of the document parts, and the "cosine distance" to calculate the similarity between the document part vectors and the question vector. These features are available in the [Parakeet](https://github.com/parakeet-nest/parakeet) project.
+✋ For this experiment, I used an "in-memory vector store" to store the vectors of the document parts, and the "cosine distance" to calculate the similarity between the document part vectors and the question vector. These features are available in the [Parakeet](https://github.com/mitjafelicijan/parakeet) project.
 
 > Parakeet provides other features for RAG, notably with **Elasticsearch**. You can consult the documentation and examples for more information.
 
 ### Similarity Search
 
-To perform the similarity search, I used the `SearchTopNSimilarities` function from [Parakeet](https://github.com/parakeet-nest/parakeet). Here is the signature of this function:
+To perform the similarity search, I used the `SearchTopNSimilarities` function from [Parakeet](https://github.com/mitjafelicijan/parakeet). Here is the signature of this function:
 
 ```golang
 func (mvs *embeddings.MemoryVectorStore) SearchTopNSimilarities(embeddingFromQuestion llm.VectorRecord, limit float64, max int) ([]llm.VectorRecord, error)
@@ -471,11 +471,11 @@ I created a new file, `ferns.2.split.list.md`, which contains the same informati
 
 In fact, I present the same information several times in the document. But in a different form.
 
-📝 You can find the full file here: [ferns.2.split.list.md](https://github.com/parakeet-nest/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.2.split.list.md)
+📝 You can find the full file here: [ferns.2.split.list.md](https://github.com/mitjafelicijan/parakeet/tree/main/examples/42-make-a-slm-smarter/data/ferns.2.split.list.md)
 
 I keep **mxbai-embed-large** for embedding generation, and I will perform the same tests as in the previous experiment but with the `ferns.2.split.list.md` file.
 
-📝 This time the code to run the examples is here: [03-rag-list](https://github.com/parakeet-nest/parakeet/tree/main/examples/42-make-a-slm-smarter/03-rag-list)
+📝 This time the code to run the examples is here: [03-rag-list](https://github.com/mitjafelicijan/parakeet/tree/main/examples/42-make-a-slm-smarter/03-rag-list)
 
 ### Results
 

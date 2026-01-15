@@ -85,4 +85,4 @@ llm.GetModelsList(url string) (llm.ModelList, int, error)
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/50-llm-information](https://github.com/parakeet-nest/parakeet/tree/main/examples/50-llm-information)
+    - [examples/50-llm-information](https://github.com/mitjafelicijan/parakeet/tree/main/examples/50-llm-information)

@@ -9,7 +9,7 @@ import (
 	"os"
 
 	"github.com/joho/godotenv"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/llm"
 
 	"fmt"
 	"log"

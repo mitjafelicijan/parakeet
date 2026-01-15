@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/parakeet-nest/parakeet/completion/typesprovider/openai"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/completion/typesprovider/openai"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func modelRunnerChat(url string, query llm.Query) (llm.Answer, error) {

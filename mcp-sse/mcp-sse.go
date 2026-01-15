@@ -6,8 +6,8 @@ import (
 
 	"github.com/mark3labs/mcp-go/client"
 	"github.com/mark3labs/mcp-go/mcp"
-	"github.com/parakeet-nest/parakeet/llm"
-	"github.com/parakeet-nest/parakeet/tools"
+	"github.com/mitjafelicijan/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/tools"
 )
 
 type Client struct {

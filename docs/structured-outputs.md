@@ -7,4 +7,4 @@
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/66-structured-outputs](https://github.com/parakeet-nest/parakeet/tree/main/examples/66-structured-outputs)
+    - [examples/66-structured-outputs](https://github.com/mitjafelicijan/parakeet/tree/main/examples/66-structured-outputs)

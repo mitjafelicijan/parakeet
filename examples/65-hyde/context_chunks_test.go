@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/parakeet-nest/parakeet/content"
-	"github.com/parakeet-nest/parakeet/embeddings"
-	"github.com/parakeet-nest/parakeet/enums/option"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/content"
+	"github.com/mitjafelicijan/parakeet/embeddings"
+	"github.com/mitjafelicijan/parakeet/enums/option"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 // Contextual retrieval

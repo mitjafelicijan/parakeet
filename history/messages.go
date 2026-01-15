@@ -1,6 +1,6 @@
 package history
 
-import "github.com/parakeet-nest/parakeet/llm"
+import "github.com/mitjafelicijan/parakeet/llm"
 
 type Messages interface {
 	Get(id string) (llm.MessageRecord, error)

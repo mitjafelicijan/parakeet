@@ -5,7 +5,7 @@ import (
 	"sort"
 
 	"github.com/google/uuid"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 type MemoryMessages struct {

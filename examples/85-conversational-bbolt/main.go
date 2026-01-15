@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/parakeet-nest/parakeet/history"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/history"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func main() {

@@ -26,7 +26,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/parakeet-nest/parakeet/mcp-stdio"
+	"github.com/mitjafelicijan/parakeet/mcp-stdio"
 )
 
 func main() {
@@ -185,8 +185,8 @@ import (
 	"time"
 
 	"github.com/joho/godotenv"
-	mcpsse "github.com/parakeet-nest/parakeet/mcp-sse"
-	"github.com/parakeet-nest/parakeet/gear"
+	mcpsse "github.com/mitjafelicijan/parakeet/mcp-sse"
+	"github.com/mitjafelicijan/parakeet/gear"
 )
 
 func main() {
@@ -330,8 +330,8 @@ import (
 	"time"
 
 	"github.com/joho/godotenv"
-	mcphttp "github.com/parakeet-nest/parakeet/mcp-http"
-	"github.com/parakeet-nest/parakeet/gear"
+	mcphttp "github.com/mitjafelicijan/parakeet/mcp-http"
+	"github.com/mitjafelicijan/parakeet/gear"
 )
 
 func main() {
@@ -526,6 +526,6 @@ MCP HTTP provides a stateless, web-friendly transport mechanism for integrating 
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/67-mcp](https://github.com/parakeet-nest/parakeet/tree/main/examples/67-mcp)
-    - [examples/75-mcp-sse](https://github.com/parakeet-nest/parakeet/tree/main/examples/75-mcp-sse)
-    - [examples/95-mcp-http](https://github.com/parakeet-nest/parakeet/tree/main/examples/95-mcp-http)
+    - [examples/67-mcp](https://github.com/mitjafelicijan/parakeet/tree/main/examples/67-mcp)
+    - [examples/75-mcp-sse](https://github.com/mitjafelicijan/parakeet/tree/main/examples/75-mcp-sse)
+    - [examples/95-mcp-http](https://github.com/mitjafelicijan/parakeet/tree/main/examples/95-mcp-http)

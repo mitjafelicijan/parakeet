@@ -1,4 +1,4 @@
-module github.com/parakeet-nest/parakeet
+module github.com/mitjafelicijan/parakeet
 
 go 1.24.0
 

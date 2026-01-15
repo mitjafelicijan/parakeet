@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/mark3labs/mcp-go/mcp"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 // GenerateAvailableToolsContent generates a string containing the JSON representation of the provided tools array,

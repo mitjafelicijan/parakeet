@@ -13,7 +13,7 @@ Parakeet is the simplest Go library to create **GenAI apps** with **[Ollama](htt
 	current release: `v0.2.9 🥧 [pie]`
 
 ```bash
-go get github.com/parakeet-nest/parakeet
+go get github.com/mitjafelicijan/parakeet
 ```
 <!-- split -->
 
@@ -27,9 +27,9 @@ The simple completion can be used to generate a response for a given prompt with
 package main
 
 import (
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/llm"
-	"github.com/parakeet-nest/parakeet/enums/option"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/enums/option"
 
 	"fmt"
 	"log"

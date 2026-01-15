@@ -2,7 +2,7 @@ module 59-buddy
 
 go 1.24.0
 
-require github.com/parakeet-nest/parakeet v0.2.9
+require github.com/mitjafelicijan/parakeet v0.2.9
 
 require (
 	github.com/atotto/clipboard v0.1.4 // indirect
@@ -46,4 +46,4 @@ require (
 	golang.org/x/text v0.27.0 // indirect
 )
 
-replace github.com/parakeet-nest/parakeet => ../..
+replace github.com/mitjafelicijan/parakeet => ../..

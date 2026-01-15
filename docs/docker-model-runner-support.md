@@ -74,8 +74,8 @@ if err != nil {
 !!! note
 	You can find examples in 
     
-	  - [examples/77-chat-model-runner](https://github.com/parakeet-nest/parakeet/tree/main/77-chat-model-runner)
-	  - [examples/78-chat-stream-model-runner](https://github.com/parakeet-nest/parakeet/tree/main/examples/78-chat-stream-model-runner)
+	  - [examples/77-chat-model-runner](https://github.com/mitjafelicijan/parakeet/tree/main/77-chat-model-runner)
+	  - [examples/78-chat-stream-model-runner](https://github.com/mitjafelicijan/parakeet/tree/main/examples/78-chat-stream-model-runner)
 
 ## Chat completion with tools
 
@@ -135,7 +135,7 @@ fmt.Println(result)
 ```
 
 !!! note
-	You can find an example in [examples/80-tools-model-runner](https://github.com/parakeet-nest/parakeet/tree/main/examples/80-tools-model-runner)
+	You can find an example in [examples/80-tools-model-runner](https://github.com/mitjafelicijan/parakeet/tree/main/examples/80-tools-model-runner)
 
 
 ## Create embeddings
@@ -154,4 +154,4 @@ embedding, err := embeddings.CreateEmbedding(
 ```
 
 !!! note
-	You can find an example in [examples/79-embeddings-memory-model-runner](https://github.com/parakeet-nest/parakeet/tree/main/examples/79-embeddings-memory-model-runner)
+	You can find an example in [examples/79-embeddings-memory-model-runner](https://github.com/mitjafelicijan/parakeet/tree/main/examples/79-embeddings-memory-model-runner)

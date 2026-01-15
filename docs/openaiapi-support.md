@@ -67,8 +67,8 @@ if err != nil {
 !!! note
 	You can find examples in 
 	
-	  - [examples/44-chat-openai](https://github.com/parakeet-nest/parakeet/tree/main/examples/44-chat-openai)
-	  - [examples/45-chat-stream-openai](https://github.com/parakeet-nest/parakeet/tree/main/examples/45-chat-stream-openai)
+	  - [examples/44-chat-openai](https://github.com/mitjafelicijan/parakeet/tree/main/examples/44-chat-openai)
+	  - [examples/45-chat-stream-openai](https://github.com/mitjafelicijan/parakeet/tree/main/examples/45-chat-stream-openai)
 
 ## Chat completion with tools
 
@@ -133,7 +133,7 @@ fmt.Println(result)
 ```
 
 !!! note
-	You can find an example in [examples/81-tools-openai](https://github.com/parakeet-nest/parakeet/tree/main/examples/81-tools-openai)
+	You can find an example in [examples/81-tools-openai](https://github.com/mitjafelicijan/parakeet/tree/main/examples/81-tools-openai)
 
 
 ## Create embeddings
@@ -153,4 +153,4 @@ embedding, err := embeddings.CreateEmbedding(
 ```
 
 !!! note
-	You can find an example in [examples/49-embeddings-memory-openai](https://github.com/parakeet-nest/parakeet/tree/main/examples/49-embeddings-memory-openai)
+	You can find an example in [examples/49-embeddings-memory-openai](https://github.com/mitjafelicijan/parakeet/tree/main/examples/49-embeddings-memory-openai)

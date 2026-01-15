@@ -6,8 +6,8 @@ import (
 
 	"github.com/google/uuid"
 
-	bbolt "github.com/parakeet-nest/parakeet/db"
-	"github.com/parakeet-nest/parakeet/llm"
+	bbolt "github.com/mitjafelicijan/parakeet/db"
+	"github.com/mitjafelicijan/parakeet/llm"
 	bolt "go.etcd.io/bbolt"
 )
 

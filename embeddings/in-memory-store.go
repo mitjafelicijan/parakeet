@@ -2,8 +2,8 @@ package embeddings
 
 import (
 	"github.com/google/uuid"
-	"github.com/parakeet-nest/parakeet/llm"
-	"github.com/parakeet-nest/parakeet/similarity"
+	"github.com/mitjafelicijan/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/similarity"
 )
 
 type MemoryVectorStore struct {

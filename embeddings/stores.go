@@ -1,6 +1,6 @@
 package embeddings
 
-import "github.com/parakeet-nest/parakeet/llm"
+import "github.com/mitjafelicijan/parakeet/llm"
 
 type VectorStore interface {
 	Get(id string) (llm.VectorRecord, error)

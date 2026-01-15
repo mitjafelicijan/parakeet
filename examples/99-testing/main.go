@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/parakeet-nest/parakeet/enums/option"
-	"github.com/parakeet-nest/parakeet/flock"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/enums/option"
+	"github.com/mitjafelicijan/parakeet/flock"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func main() {

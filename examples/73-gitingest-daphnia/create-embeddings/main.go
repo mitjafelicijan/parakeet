@@ -6,12 +6,12 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/parakeet-nest/parakeet/content"
-	"github.com/parakeet-nest/parakeet/source"
+	"github.com/mitjafelicijan/parakeet/content"
+	"github.com/mitjafelicijan/parakeet/source"
 
-	"github.com/parakeet-nest/parakeet/embeddings"
-	"github.com/parakeet-nest/parakeet/gear"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/embeddings"
+	"github.com/mitjafelicijan/parakeet/gear"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func main() {

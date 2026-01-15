@@ -68,4 +68,4 @@ Tiefling Species in Fantasy Realms: A Comprehensive Analysis > Professional Deve
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/65-hyde](https://github.com/parakeet-nest/parakeet/tree/main/examples/65-hyde)
+    - [examples/65-hyde](https://github.com/mitjafelicijan/parakeet/tree/main/examples/65-hyde)

@@ -37,7 +37,7 @@ Key features:
 To use Squawk in your Go project:
 
 ```go
-go get github.com/parakeet-nest/parakeet/squawk
+go get github.com/mitjafelicijan/parakeet/squawk
 ```
 
 ## Core Concepts

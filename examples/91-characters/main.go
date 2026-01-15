@@ -6,7 +6,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func main() {

@@ -1,6 +1,6 @@
 package squawk
 
-import "github.com/parakeet-nest/parakeet/llm"
+import "github.com/mitjafelicijan/parakeet/llm"
 
 // System adds a system message to the conversation context.
 // System messages help define the behavior and context for the AI assistant.

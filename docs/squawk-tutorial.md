@@ -553,8 +553,8 @@ squawk.New().
 !!! note
 	👀 you will find complete examples in:
 
-    - [examples/86-squawk-demo](https://github.com/parakeet-nest/parakeet/tree/main/examples/86-squawk-demo)
-    - [examples/87-squawk-meta-prompts](https://github.com/parakeet-nest/parakeet/tree/main/examples/87-squawk-meta-prompts)
-    - [examples/88-squawk-embeddings](https://github.com/parakeet-nest/parakeet/tree/main/examples/88-squawk-embeddings)
-    - [examples/89-squawk-tools](https://github.com/parakeet-nest/parakeet/tree/main/examples/89-squawk-tools)
-    - [examples/92-squawk-tutorial](https://github.com/parakeet-nest/parakeet/tree/main/examples/92-squawk-tutorial)
+    - [examples/86-squawk-demo](https://github.com/mitjafelicijan/parakeet/tree/main/examples/86-squawk-demo)
+    - [examples/87-squawk-meta-prompts](https://github.com/mitjafelicijan/parakeet/tree/main/examples/87-squawk-meta-prompts)
+    - [examples/88-squawk-embeddings](https://github.com/mitjafelicijan/parakeet/tree/main/examples/88-squawk-embeddings)
+    - [examples/89-squawk-tools](https://github.com/mitjafelicijan/parakeet/tree/main/examples/89-squawk-tools)
+    - [examples/92-squawk-tutorial](https://github.com/mitjafelicijan/parakeet/tree/main/examples/92-squawk-tutorial)

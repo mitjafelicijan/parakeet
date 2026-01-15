@@ -153,15 +153,15 @@ fmt.Println("Result:", response.GetLastMessage().ToolCalls[0].Result)
 !!! note
     Look at this sample:
 
-    - [examples/61-agents](https://github.com/parakeet-nest/parakeet/tree/main/examples/61-agents)
+    - [examples/61-agents](https://github.com/mitjafelicijan/parakeet/tree/main/examples/61-agents)
 
 ### Conversational Agents
 
 !!! note
 	Look at these samples:
 
-    - [examples/62-agents-chat](https://github.com/parakeet-nest/parakeet/tree/main/examples/62-agents-chat)
-    - [examples/63-agents-chat-stream](https://github.com/parakeet-nest/parakeet/tree/main/examples/63-agents-chat-stream)
+    - [examples/62-agents-chat](https://github.com/mitjafelicijan/parakeet/tree/main/examples/62-agents-chat)
+    - [examples/63-agents-chat-stream](https://github.com/mitjafelicijan/parakeet/tree/main/examples/63-agents-chat-stream)
 
 
 ### Function Calling Example
@@ -169,4 +169,4 @@ fmt.Println("Result:", response.GetLastMessage().ToolCalls[0].Result)
 !!! note
     Look at this sample:
 
-    - [examples/64-agents-with-tools](https://github.com/parakeet-nest/parakeet/tree/main/examples/64-agents-with-tools)
+    - [examples/64-agents-with-tools](https://github.com/mitjafelicijan/parakeet/tree/main/examples/64-agents-with-tools)

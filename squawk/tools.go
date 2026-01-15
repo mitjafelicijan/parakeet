@@ -1,8 +1,8 @@
 package squawk
 
 import (
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 // Tools sets the list of available tools for function calling capabilities.

@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/joho/godotenv"
-	"github.com/parakeet-nest/parakeet/gear"
-	mcpsse "github.com/parakeet-nest/parakeet/mcp-sse"
+	"github.com/mitjafelicijan/parakeet/gear"
+	mcpsse "github.com/mitjafelicijan/parakeet/mcp-sse"
 )
 
 func main() {

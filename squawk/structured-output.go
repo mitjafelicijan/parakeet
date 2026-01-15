@@ -3,8 +3,8 @@ package squawk
 import (
 	"encoding/json"
 
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 // Schema sets a schema for structured output from the language model.

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 
 	"github.com/google/uuid"
-	bbolt "github.com/parakeet-nest/parakeet/db"
-	"github.com/parakeet-nest/parakeet/llm"
-	"github.com/parakeet-nest/parakeet/similarity"
+	bbolt "github.com/mitjafelicijan/parakeet/db"
+	"github.com/mitjafelicijan/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/similarity"
 	bolt "go.etcd.io/bbolt"
 )
 

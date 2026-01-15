@@ -129,5 +129,5 @@ Returns:
 !!! note
 	👀 you will find complete examples in:
 
-    - [examples/59-jean-luc-picard-contextual-retrieval](https://github.com/parakeet-nest/parakeet/tree/main/examples/59-jean-luc-picard-contextual-retrieval)
+    - [examples/59-jean-luc-picard-contextual-retrieval](https://github.com/mitjafelicijan/parakeet/tree/main/examples/59-jean-luc-picard-contextual-retrieval)
 

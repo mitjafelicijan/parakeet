@@ -1,7 +1,7 @@
 go 1.24.0
 
 use (
-
+	.
 	examples/01-generate
 	examples/02-generate-stream
 	examples/03-chat
@@ -72,7 +72,6 @@ use (
 
 	./examples/40-rag-with-elastic-markdown
 
-
 	./examples/42-make-a-slm-smarter/01-context
 	./examples/42-make-a-slm-smarter/02-rag
 	./examples/42-make-a-slm-smarter/03-rag-list
@@ -102,7 +101,7 @@ use (
 	./examples/52-constraints
 	./examples/53-constraints
 	./examples/54-constraints-webapp
-	
+
 	./examples/55-create-npc
 	./examples/56-jean-luc-picard
 	./examples/57-jean-luc-picard-rag
@@ -167,9 +166,8 @@ use (
 
 	examples/92-squawk-tutorial
 
-
 	examples/99-testing
-	
+
 	//prompting/01-draft
 	star-trek-tests
 
@@ -177,6 +175,4 @@ use (
 	testing/interpolation
 	testing/data
 	testing/similarity
-
-
 )

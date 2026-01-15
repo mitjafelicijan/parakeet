@@ -9,14 +9,14 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/parakeet-nest/parakeet/cli"
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/content"
-	"github.com/parakeet-nest/parakeet/embeddings"
-	"github.com/parakeet-nest/parakeet/enums/option"
-	"github.com/parakeet-nest/parakeet/llm"
-	"github.com/parakeet-nest/parakeet/ui"
-	"github.com/parakeet-nest/parakeet/ui/colors"
+	"github.com/mitjafelicijan/parakeet/cli"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/content"
+	"github.com/mitjafelicijan/parakeet/embeddings"
+	"github.com/mitjafelicijan/parakeet/enums/option"
+	"github.com/mitjafelicijan/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/ui"
+	"github.com/mitjafelicijan/parakeet/ui/colors"
 )
 
 func createEmbeddings(docsPath, storePath, ollamaUrl, embeddingsModel, contextualModel string) {

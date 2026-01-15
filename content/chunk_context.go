@@ -1,8 +1,8 @@
 package content
 
 import (
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 // CreateChunkContextWithPromptTemplate generates a contextual response based on a given prompt template and document content.

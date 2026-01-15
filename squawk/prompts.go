@@ -1,8 +1,8 @@
 package squawk
 
 import (
-	"github.com/parakeet-nest/parakeet/llm"
-	"github.com/parakeet-nest/parakeet/prompt"
+	"github.com/mitjafelicijan/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/prompt"
 )
 
 // MetaPrompts are a set of functions that modify the input message to the LLM.

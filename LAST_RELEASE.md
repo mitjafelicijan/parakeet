@@ -196,7 +196,7 @@ Update of the Extism dependency.
 
 Flock is a Parakeet package for creating and managing AI agents using the Ollama backend. It provides a simple way to create conversational agents, orchestrate interactions between them, and implement function calling capabilities.
 
-📝 [Documentation](https://github.com/parakeet-nest/parakeet/blob/main/docs/flock-agents.md)
+📝 [Documentation](https://github.com/mitjafelicijan/parakeet/blob/main/docs/flock-agents.md)
 
 ## v0.2.1 🧇 [waffle]
 

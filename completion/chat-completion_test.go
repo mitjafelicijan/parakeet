@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 var ollamaUrl = "http://localhost:11434"

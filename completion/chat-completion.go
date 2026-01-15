@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/parakeet-nest/parakeet/enums/provider"
-	"github.com/parakeet-nest/parakeet/gear"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/enums/provider"
+	"github.com/mitjafelicijan/parakeet/gear"
+	"github.com/mitjafelicijan/parakeet/llm"
 
-	"github.com/parakeet-nest/parakeet/completion/typesprovider/openai"
+	"github.com/mitjafelicijan/parakeet/completion/typesprovider/openai"
 
 )
 

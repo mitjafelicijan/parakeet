@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func TestMetricsOfAnswers(t *testing.T) {

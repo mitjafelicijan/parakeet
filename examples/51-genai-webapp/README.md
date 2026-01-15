@@ -6,7 +6,7 @@ go run main.go
 
 ## Start the project with Docker Compose
 
-This 🐳 Compose GenAI Stack is an example of the usage of the [Parakeet](https://github.com/parakeet-nest/parakeet) 🦜🪺 GoLang library, made to simplify the development of small generative AI applications.
+This 🐳 Compose GenAI Stack is an example of the usage of the [Parakeet](https://github.com/mitjafelicijan/parakeet) 🦜🪺 GoLang library, made to simplify the development of small generative AI applications.
 
 If you want to use the stack with your local install of Ollama:
 

@@ -3,7 +3,7 @@ package embeddings
 import (
 	"fmt"
 
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 // GenerateContextFromSimilarities generates the context content from a slice of vector records.

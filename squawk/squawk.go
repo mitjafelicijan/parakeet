@@ -28,9 +28,9 @@ It simplifies common tasks, making the technology more accessible and easier to 
 */
 
 import (
-	"github.com/parakeet-nest/parakeet/embeddings"
-	"github.com/parakeet-nest/parakeet/enums/provider"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/embeddings"
+	"github.com/mitjafelicijan/parakeet/enums/provider"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 // Squawk represents the core structure for managing interactions with

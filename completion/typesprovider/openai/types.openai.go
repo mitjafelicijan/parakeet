@@ -3,7 +3,7 @@ package openai
 // OpenAI API support
 import (
 	"encoding/json"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 // https://platform.openai.com/docs/api-reference/chat/create

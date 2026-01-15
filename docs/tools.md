@@ -125,7 +125,7 @@ The result will look like this:
 ```
 
 !!! note
-	Look here for a complete sample: [examples/19-mistral-function-calling-tool-support](https://github.com/parakeet-nest/parakeet/tree/main/examples/19-mistral-function-calling-tool-support)
+	Look here for a complete sample: [examples/19-mistral-function-calling-tool-support](https://github.com/mitjafelicijan/parakeet/tree/main/examples/19-mistral-function-calling-tool-support)
 
 ### Or (better) you can use the `ToolCallsToJSONString` helper
 
@@ -150,5 +150,5 @@ The result will look like this:
 !!! note
 	Look at these samples:
 
-    - [examples/43-function-calling/01-xlam](https://github.com/parakeet-nest/parakeet/tree/main/examples/43-function-calling/01-xlam)
-    - [examples/43-function-calling/02-qwen2tools](https://github.com/parakeet-nest/parakeet/tree/main/examples/43-function-calling/02-qwen2tools)
+    - [examples/43-function-calling/01-xlam](https://github.com/mitjafelicijan/parakeet/tree/main/examples/43-function-calling/01-xlam)
+    - [examples/43-function-calling/02-qwen2tools](https://github.com/mitjafelicijan/parakeet/tree/main/examples/43-function-calling/02-qwen2tools)

@@ -2,11 +2,11 @@ module testing_interpolation
 
 go 1.24.0
 
-replace github.com/parakeet-nest/parakeet => ../..
+replace github.com/mitjafelicijan/parakeet => ../..
 
-require github.com/parakeet-nest/parakeet v0.2.9
+require github.com/mitjafelicijan/parakeet v0.2.9
 
 require (
-	github.com/yuin/goldmark v1.7.4 // indirect
-	golang.org/x/net v0.28.0 // indirect
+	github.com/yuin/goldmark v1.7.13 // indirect
+	golang.org/x/net v0.42.0 // indirect
 )

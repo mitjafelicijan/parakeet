@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func ollamaCreateEmbedding(ollamaURL string, query llm.Query4Embedding, id string) (llm.VectorRecord, error) {

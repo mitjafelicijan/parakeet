@@ -3,8 +3,8 @@ package squawk
 import (
 	"log"
 
-	"github.com/parakeet-nest/parakeet/embeddings"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/embeddings"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 // Store sets the vector store for embeddings in the Squawk instance.

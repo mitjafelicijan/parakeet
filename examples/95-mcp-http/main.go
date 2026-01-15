@@ -7,11 +7,11 @@ import (
 	"time"
 
 	"github.com/joho/godotenv"
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/enums/option"
-	"github.com/parakeet-nest/parakeet/gear"
-	"github.com/parakeet-nest/parakeet/llm"
-	mcphttp "github.com/parakeet-nest/parakeet/mcp-http"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/enums/option"
+	"github.com/mitjafelicijan/parakeet/gear"
+	"github.com/mitjafelicijan/parakeet/llm"
+	mcphttp "github.com/mitjafelicijan/parakeet/mcp-http"
 )
 
 func main() {

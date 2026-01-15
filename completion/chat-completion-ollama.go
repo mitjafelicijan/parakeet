@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func ollamaChat(url string, query llm.Query) (llm.Answer, error) {

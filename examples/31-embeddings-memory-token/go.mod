@@ -2,22 +2,28 @@ module 31-embeddings-memory-token
 
 go 1.24.0
 
-require github.com/parakeet-nest/parakeet v0.2.9
+require (
+	github.com/joho/godotenv v1.5.1
+	github.com/mitjafelicijan/parakeet v0.2.9
+)
 
 require (
-	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
-	github.com/elastic/elastic-transport-go/v8 v8.6.0 // indirect
-	github.com/elastic/go-elasticsearch/v8 v8.14.0 // indirect
-	github.com/go-logr/logr v1.4.1 // indirect
+	github.com/elastic/elastic-transport-go/v8 v8.7.0 // indirect
+	github.com/elastic/go-elasticsearch/v8 v8.18.1 // indirect
+	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-redis/redis/v8 v8.11.5 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	go.etcd.io/bbolt v1.3.11 // indirect
-	go.opentelemetry.io/otel v1.24.0 // indirect
-	go.opentelemetry.io/otel/metric v1.24.0 // indirect
-	go.opentelemetry.io/otel/trace v1.24.0 // indirect
-	golang.org/x/sys v0.20.0 // indirect
+	github.com/sea-monkeys/artemia v0.0.0 // indirect
+	github.com/sea-monkeys/daphnia v0.0.3 // indirect
+	go.etcd.io/bbolt v1.4.2 // indirect
+	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
+	go.opentelemetry.io/otel v1.37.0 // indirect
+	go.opentelemetry.io/otel/metric v1.37.0 // indirect
+	go.opentelemetry.io/otel/trace v1.37.0 // indirect
+	golang.org/x/sys v0.34.0 // indirect
 )
 
-replace github.com/parakeet-nest/parakeet => ../..
+replace github.com/mitjafelicijan/parakeet => ../..

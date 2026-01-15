@@ -3,8 +3,8 @@ package flock
 import (
 	"fmt"
 
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 type AgentFunction func(interface{}) (interface{}, error)

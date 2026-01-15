@@ -54,8 +54,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/parakeet-nest/parakeet/embeddings"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/embeddings"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 // 1️⃣ Item 
@@ -114,7 +114,7 @@ func main() {
 
 1. **Item Struct**: Defines a struct `Item` with three fields: `Input`, `Instruction`, and `Output`, all of which are strings and will be parsed from the JSON file.
 2. **Initialization**:
-  - Initializes a `BboltVectorStore` to store embeddings, pointing to a database file ../embeddings.db. (*Parakeet provides [two kinds of vector store](https://github.com/parakeet-nest/parakeet?tab=readme-ov-file#vector-stores): a in memory vector store and a bbolt vector store. The last one use [Bbolt](https://github.com/etcd-io/bbolt), an embedded key/value database for Go to persist the vectors and the related data.*)
+  - Initializes a `BboltVectorStore` to store embeddings, pointing to a database file ../embeddings.db. (*Parakeet provides [two kinds of vector store](https://github.com/mitjafelicijan/parakeet?tab=readme-ov-file#vector-stores): a in memory vector store and a bbolt vector store. The last one use [Bbolt](https://github.com/etcd-io/bbolt), an embedded key/value database for Go to persist the vectors and the related data.*)
 3. Reads the content of `NLDockercommands.json` into `fileContent`.
 4. Parse JSON Data: unmarshals the JSON content into a slice of Item structs.
 5. Create and Save Embeddings:

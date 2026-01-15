@@ -4,7 +4,7 @@ import (
 	"math"
 	"sort"
 
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func dotProduct(v1 []float64, v2 []float64) float64 {

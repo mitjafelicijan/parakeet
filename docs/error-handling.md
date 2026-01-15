@@ -50,6 +50,6 @@ if noHostErr, ok := err.(*completion.NoSuchOllamaHostError); ok {
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/04-chat-stream](https://github.com/parakeet-nest/parakeet/tree/main/examples/04-chat-stream)
-    - [examples/66-structured-outputs](https://github.com/parakeet-nest/parakeet/tree/main/examples/66-structured-outputs)
+    - [examples/04-chat-stream](https://github.com/mitjafelicijan/parakeet/tree/main/examples/04-chat-stream)
+    - [examples/66-structured-outputs](https://github.com/mitjafelicijan/parakeet/tree/main/examples/66-structured-outputs)
 

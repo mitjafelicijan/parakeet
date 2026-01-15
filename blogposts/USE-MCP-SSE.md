@@ -4,7 +4,7 @@ For the release of version `v0.2.6 🍿 [popcorn]` of Parakeet, I'm explaining h
 
 As a reminder:
 
-- **[Parakeet](https://github.com/parakeet-nest/parakeet)** is a Go library designed to help you develop generative AI applications with [Ollama](https://ollama.com/). The goal of **Parakeet** is to simplify the development of your application as much as possible. Reading the project [README](https://github.com/parakeet-nest/parakeet?tab=readme-ov-file#-parakeet) is sufficient to get started quickly.
+- **[Parakeet](https://github.com/mitjafelicijan/parakeet)** is a Go library designed to help you develop generative AI applications with [Ollama](https://ollama.com/). The goal of **Parakeet** is to simplify the development of your application as much as possible. Reading the project [README](https://github.com/mitjafelicijan/parakeet?tab=readme-ov-file#-parakeet) is sufficient to get started quickly.
 
 - **[MCP](https://www.anthropic.com/news/model-context-protocol)**, or Model Context Protocol, is an open standard developed by **[Anthropic](https://www.anthropic.com/)** that connects AI assistants to systems where "data lives" (content repositories, professional tools, and development environments). This technology aims to replace fragmented integrations with a universal protocol, allowing AI models to more easily access relevant data to produce higher quality responses.
 
@@ -32,7 +32,7 @@ The server structure is as follows:
         └── resources.yml
 ```
 
-The server is available here [https://github.com/parakeet-nest/parakeet/tree/main/blogposts/mcp-sample/server](https://github.com/parakeet-nest/parakeet/tree/main/blogposts/mcp-sample/server). 
+The server is available here [https://github.com/mitjafelicijan/parakeet/tree/main/blogposts/mcp-sample/server](https://github.com/mitjafelicijan/parakeet/tree/main/blogposts/mcp-sample/server). 
 
 The objective of this server is to offer several services to your generative AI application:
 
@@ -173,7 +173,7 @@ import (
 	"log"
 	"time"
 
-	mcpsse "github.com/parakeet-nest/parakeet/mcp-sse"
+	mcpsse "github.com/mitjafelicijan/parakeet/mcp-sse"
 )
 
 func main() {
@@ -434,7 +434,7 @@ touch main.go
 
 The code below is a program that demonstrates the use of a communication system between a client and an MCP server to interact with LLMs via Ollama.
 
-So, add the following code (available here [demo-with-llm](https://github.com/parakeet-nest/parakeet/blob/main/blogposts/mcp-sample/demo-with-llm/main.go)):
+So, add the following code (available here [demo-with-llm](https://github.com/mitjafelicijan/parakeet/blob/main/blogposts/mcp-sample/demo-with-llm/main.go)):
 
 ```golang
 package main
@@ -445,10 +445,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/parakeet-nest/parakeet/completion"
-	"github.com/parakeet-nest/parakeet/enums/option"
-	"github.com/parakeet-nest/parakeet/llm"
-	mcpsse "github.com/parakeet-nest/parakeet/mcp-sse"
+	"github.com/mitjafelicijan/parakeet/completion"
+	"github.com/mitjafelicijan/parakeet/enums/option"
+	"github.com/mitjafelicijan/parakeet/llm"
+	mcpsse "github.com/mitjafelicijan/parakeet/mcp-sse"
 )
 
 func main() {

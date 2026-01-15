@@ -3,7 +3,7 @@ package testing_interpolation
 import (
 	"fmt"
 	"testing"
-	"github.com/parakeet-nest/parakeet/content"
+	"github.com/mitjafelicijan/parakeet/content"
 )
 
 func TestInterpolation(t *testing.T) {

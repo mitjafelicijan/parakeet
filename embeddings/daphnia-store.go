@@ -1,7 +1,7 @@
 package embeddings
 
 import (
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/llm"
 	"github.com/sea-monkeys/daphnia"
 )
 

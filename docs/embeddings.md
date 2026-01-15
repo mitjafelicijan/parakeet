@@ -65,9 +65,9 @@ store.Initialize("../embeddings.db")
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/09-embeddings-bbolt](https://github.com/parakeet-nest/parakeet/tree/main/examples/09-embeddings-bbolt)
-    - [examples/09-embeddings-bbolt/create-embeddings](https://github.com/parakeet-nest/parakeet/tree/main/examples/09-embeddings-bbolt/create-embeddings): create and populate the vector store
-    - [examples/09-embeddings-bbolt/use-embeddings](https://github.com/parakeet-nest/parakeet/tree/main/examples/09-embeddings-bbolt/use-embeddings): search similarities in the vector store
+    - [examples/09-embeddings-bbolt](https://github.com/mitjafelicijan/parakeet/tree/main/examples/09-embeddings-bbolt)
+    - [examples/09-embeddings-bbolt/create-embeddings](https://github.com/mitjafelicijan/parakeet/tree/main/examples/09-embeddings-bbolt/create-embeddings): create and populate the vector store
+    - [examples/09-embeddings-bbolt/use-embeddings](https://github.com/mitjafelicijan/parakeet/tree/main/examples/09-embeddings-bbolt/use-embeddings): search similarities in the vector store
 
 <!-- split -->
 
@@ -86,9 +86,9 @@ if err != nil {
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/32-rag-with-redis](https://github.com/parakeet-nest/parakeet/tree/main/examples/32-rag-with-redis)
-    - [examples/32-rag-with-redis/create-embeddings](https://github.com/parakeet-nest/parakeet/tree/main/examples/32-rag-with-redis/create-embeddings): create and populate the vector store
-    - [examples/32-rag-with-redis/use-embeddings](https://github.com/parakeet-nest/parakeet/tree/main/examples/32-rag-with-redis/use-embeddings): search similarities in the vector store
+    - [examples/32-rag-with-redis](https://github.com/mitjafelicijan/parakeet/tree/main/examples/32-rag-with-redis)
+    - [examples/32-rag-with-redis/create-embeddings](https://github.com/mitjafelicijan/parakeet/tree/main/examples/32-rag-with-redis/create-embeddings): create and populate the vector store
+    - [examples/32-rag-with-redis/use-embeddings](https://github.com/mitjafelicijan/parakeet/tree/main/examples/32-rag-with-redis/use-embeddings): search similarities in the vector store
 
 
 ### Elasticsearch vector store
@@ -112,9 +112,9 @@ err := elasticStore.Initialize(
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/33-rag-with-elastic](https://github.com/parakeet-nest/parakeet/tree/main/examples/33-rag-with-elastic)
-    - [examples/33-rag-with-elastic/create-embeddings](https://github.com/parakeet-nest/parakeet/tree/main/examples/33-rag-with-elastic/create-embeddings): create and populate the vector store
-    - [examples/33-rag-with-elastic/use-embeddings](https://github.com/parakeet-nest/parakeet/tree/main/examples/33-rag-with-elastic/use-embeddings): search similarities in the vector store
+    - [examples/33-rag-with-elastic](https://github.com/mitjafelicijan/parakeet/tree/main/examples/33-rag-with-elastic)
+    - [examples/33-rag-with-elastic/create-embeddings](https://github.com/mitjafelicijan/parakeet/tree/main/examples/33-rag-with-elastic/create-embeddings): create and populate the vector store
+    - [examples/33-rag-with-elastic/use-embeddings](https://github.com/mitjafelicijan/parakeet/tree/main/examples/33-rag-with-elastic/use-embeddings): search similarities in the vector store
 
 ### Daphnia vector store
 
@@ -129,8 +129,8 @@ vectorStore.Initialize("my-data.gob")
 !!! note
 	👀 you will find a complete example in:
 
-    - [examples/65-hyde](https://github.com/parakeet-nest/parakeet/tree/main/examples/65-hyde)
-    - [examples/74-rag-with-daphnia](https://github.com/parakeet-nest/parakeet/tree/main/examples/4-rag-with-daphnia)
+    - [examples/65-hyde](https://github.com/mitjafelicijan/parakeet/tree/main/examples/65-hyde)
+    - [examples/74-rag-with-daphnia](https://github.com/mitjafelicijan/parakeet/tree/main/examples/4-rag-with-daphnia)
 
 ### Additional data
 

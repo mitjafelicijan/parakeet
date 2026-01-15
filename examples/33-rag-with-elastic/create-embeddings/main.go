@@ -7,9 +7,9 @@ import (
 	"strconv"
 
 	"github.com/joho/godotenv"
-	"github.com/parakeet-nest/parakeet/content"
-	"github.com/parakeet-nest/parakeet/embeddings"
-	"github.com/parakeet-nest/parakeet/llm"
+	"github.com/mitjafelicijan/parakeet/content"
+	"github.com/mitjafelicijan/parakeet/embeddings"
+	"github.com/mitjafelicijan/parakeet/llm"
 )
 
 func main() {
