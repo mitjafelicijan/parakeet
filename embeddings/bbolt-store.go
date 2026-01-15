@@ -16,6 +16,10 @@ type BboltVectorStore struct {
 	store *bolt.DB
 }
 
+func (bvs *BboltVectorStore) DB() *bolt.DB {
+	return bvs.store
+}
+
 func (bvs *BboltVectorStore) Initialize(dbPath string) error {
 
 	db, err := bbolt.Initialize(dbPath, bucketName)
